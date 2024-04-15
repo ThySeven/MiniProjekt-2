@@ -1,13 +1,5 @@
 version: '1.0'
 services:
-  authservice:
-    image: jeffstampe/authservice:latest
-    environment:
-      - Secret=ThySeven2023PaddingToEnsureLengthAndSecurity123456
-      - Issuer=ThySevenIssuer
-    ports:
-      - '5002:8080'
-
   loki:
     image: grafana/loki
     ports:
