@@ -43,7 +43,7 @@ services:
     ports:
       - "8201:8201"
     environment:
-      VAULT_ADDR: 'https://0.0.0.0:8201'
+      VAULT_ADDR: 'https://0.0.0.0:8201/'
       VAULT_LOCAL_CONFIG: '{"listener": [{"tcp":{"address": "0.0.0.0:8201", "tls_disable": "0", "tls_cert_file":"/data/cert.pem", "tls_key_file":"/data/key.pem"}}], "default_lease_ttl": "168h", "max_lease_ttl": "720h", "ui": true}'
       VAULT_DEV_ROOT_TOKEN_ID: '1a2b3c4d-5e6f-7g8h-9i0j-123456789abc'
       VAULT_TOKEN: 'abcdef12-3456-7890-abcd-ef1234567890'
@@ -54,6 +54,16 @@ services:
     healthcheck:
       retries: 5
     command: 'server -dev -dev-root-token-id="1a2b3c4d-5e6f-7g8h-9i0j-123456789abc"'
+
+  vault_setup:
+    image: jeffstampe/vaultsetup:latest
+    environment:
+      - VAULT_IP=https://vault_dev:8201
+      - VAULT_SECRET=1a2b3c4d-5e6f-7g8h-9i0j-123456789abc
+      - JWTSecret=ThySeven2023PaddingToEnsureLengthAndSecurity123456
+      - JWTIssuer=ThySevenIssuer
+    depends_on:
+      - vault_dev
 
 volumes:
   images:
