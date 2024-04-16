@@ -42,22 +42,20 @@ Happy coding! 🎉
 ## Dummy Data
 
 ```json
-[
-    {
-        "id": "6098e6d7f0c35d30c4a07c93",
-        "contact": {
-            "name": "Emily",
-            "address1": "555 Cedar Ave",
-            "address2": "",
-            "postalCode": 67890,
-            "city": "Chicago",
-            "contactName": "David Brown",
-            "taxNumber": "135792468"
-        },
-        "address1": "777 Maple Rd",
-        "address2": "Suite 100",
-        "postalCode": 60611,
+{
+    "id": "6098e6d7f0c35d30c4a07c93",
+    "contact": {
+        "name": "Emily",
+        "address1": "555 Cedar Ave",
+        "address2": "",
+        "postalCode": 67890,
         "city": "Chicago",
-        "deliveryDate": "2024-04-18T08:00:00Z"
-    }
-]
+        "contactName": "David Brown",
+        "taxNumber": "135792468"
+    },
+    "address1": "777 Maple Rd",
+    "address2": "Suite 100",
+    "postalCode": 60611,
+    "city": "Chicago",
+    "deliveryDate": "2024-04-18T08:00:00Z"
+}
