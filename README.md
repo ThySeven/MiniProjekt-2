@@ -5,7 +5,9 @@ Welcome to our project repository! Here, you'll dive into the fascinating world 
 ## Project Repositories
 
 - Delivery Service: [ThySeven/DeliveryService](https://github.com/ThySeven/DeliveryService)
-- Logistic Control: [ThySeven/Logistikstyrring](https://github.com/ThySeven/Logistikstyrring)
+- Planning Service: [ThySeven/PlanningService](https://github.com/ThySeven/PlanningService)
+- Authorisation Service: [ThySeven/AuthService](https://github.com/ThySeven/AuthService)
+- Tracking Service: [ThySeven/TrackingService](https://github.com/ThySeven/Tracking-Service)
 
 ## Getting Started
 
