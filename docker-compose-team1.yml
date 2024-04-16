@@ -3,9 +3,14 @@ services:
   authservice:
     image: jeffstampe/authservice:latest
     environment:
-      - Secret=ThySeven2023PaddingToEnsureLengthAndSecurity123456
-      - Issuer=ThySevenIssuer
       - VAULT_IP=https://0.0.0.0:8201
       - VAULT_SECRET=1a2b3c4d-5e6f-7g8h-9i0j-123456789abc
     ports:
       - '5002:8080'
+  memberservice:
+  image: jeffstampe/memberserviceminiproject:latest
+  environment:
+    - VAULT_IP=https://0.0.0.0:8201
+    - VAULT_SECRET=1a2b3c4d-5e6f-7g8h-9i0j-123456789abc
+  ports:
+    - '5003:8080'
