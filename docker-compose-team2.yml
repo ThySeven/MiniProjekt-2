@@ -1,11 +1,16 @@
-version: '1.0'
+version: "1.0"
 services:
-  
-
-
+  planning-service:
+    image: orluff/planning-service:latest
+    ports:
+      - 5083:8080
+    networks:
+      - default
+    environment:
+      RabbitMQHost: rabbitmq
 
 networks:
   default:
     driver: bridge
-    name: 'mitnet'
+    name: "mitnet"
   loki:
