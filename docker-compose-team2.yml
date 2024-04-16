@@ -1,7 +1,7 @@
 version: "1.0"
 services:
   planning-service:
-    image: orluff/planning-service:latest
+    image: jeffstampe/planningservice:latest
     ports:
       - 5083:8080
     networks:
