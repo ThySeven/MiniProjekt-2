@@ -37,3 +37,60 @@ To get your environment set up and the services running smoothly, please follow 
 Thank you for joining us on this exciting journey. Should you have any questions or need further assistance, feel free to reach out or check out our [GitHub issues](https://github.com/ThySeven/Miniprojekt-2/issues) section for support.
 
 Happy coding! 🎉
+
+
+##Dummy Data
+
+[
+    {
+        "id": "661e5bf66939e57ef2bd3da9",
+        "contact": {
+            "name": "John Doe",
+            "address1": null,
+            "address2": null,
+            "postalCode": 0,
+            "city": "Aarhus",
+            "contactName": null,
+            "taxNumber": null
+        },
+        "address1": "456 Elm St",
+        "address2": null,
+        "postalCode": 7323,
+        "city": "Give",
+        "deliveryDate": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "6098e6d7f0c35d30c4a07c92",
+        "contact": {
+            "name": "Alice",
+            "address1": "789 Oak St",
+            "address2": "Unit 202",
+            "postalCode": 56789,
+            "city": "San Francisco",
+            "contactName": "Bob Smith",
+            "taxNumber": "987654321"
+        },
+        "address1": "101 Pine St",
+        "address2": "Floor 3",
+        "postalCode": 94111,
+        "city": "San Francisco",
+        "deliveryDate": "2024-04-17T06:00:00Z"
+    },
+    {
+        "id": "6098e6d7f0c35d30c4a07c93",
+        "contact": {
+            "name": "Emily",
+            "address1": "555 Cedar Ave",
+            "address2": "",
+            "postalCode": 67890,
+            "city": "Chicago",
+            "contactName": "David Brown",
+            "taxNumber": "135792468"
+        },
+        "address1": "777 Maple Rd",
+        "address2": "Suite 100",
+        "postalCode": 60611,
+        "city": "Chicago",
+        "deliveryDate": "2024-04-18T08:00:00Z"
+    }
+]
