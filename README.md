@@ -16,7 +16,7 @@ To get your environment set up and the services running smoothly, please follow 
    `docker compose -f docker-compose-common.yml up -d`
 
 2. **Initialize the Vault**  
-   Next, set up the Vault to securely manage secrets and other sensitive data. Simply run:  
+   Next, set up the default Vault secrets. Simply run:  
    `docker compose -f docker-compose-vault-setup.yml up && docker compose -f docker-compose-vault-setup.yml down`
   
 3. **Launch the Team Services**  
@@ -24,11 +24,11 @@ To get your environment set up and the services running smoothly, please follow 
    `docker compose -f docker-compose-team{id}.yml up -d`
   
 4. **???**  
-   Follow any additional, project-specific steps required here.
+   ???.
 
 5. **Profit**  
    With everything set up, it's time to see your project come to life and enjoy the fruits of your labor!
 
-Thank you for joining us on this exciting journey. Should you have any questions or need further assistance, feel free to reach out or check out our [GitHub issues](https://github.com/ThySeven/DeliveryService/issues) section for support.
+Thank you for joining us on this exciting journey. Should you have any questions or need further assistance, feel free to reach out or check out our [GitHub issues](https://github.com/ThySeven/Miniprojekt-2/issues) section for support.
 
 Happy coding! 🎉
